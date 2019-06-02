@@ -1,0 +1,45 @@
+<!doctype html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: beige;
+}
+#main > nav {
+  order: -1;
+}
+header, footer {
+  background: yellowgreen;
+  height: 20vh;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+</style>
+<body>
+  <header>SKOLTECH [CHERTOGANOV KIRILL] - Project X</header>
+  <div id="main">
+    
+    <iframe src="https://cb9e5b244ad24cfe840fc1bc820e785a.us-east-1.aws.found.io:9243/goto/3056caace6931fa8de9b7e34e1f9d5da?embed=true" height="600" width="800"></iframe>
+    
+    
+  </div>
+  <footer>SKOLTECH [CHERTOGANOV KIRILL]</footer>
+</body>
